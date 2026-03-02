@@ -1,0 +1,11 @@
+flask>=2.0.0
+requests>=2.25.0
+faiss-cpu>=1.7.4
+opencv-python>=4.8.0
+numpy>=1.24.0
+apscheduler>=3.10.1
+waitress>=2.0.0
+pillow>=9.0.0
+tensorflow>=2.0.0
+pymysql>=1.0.0
+pycryptodome>=3.18.0

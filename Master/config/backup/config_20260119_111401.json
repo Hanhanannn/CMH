@@ -1,0 +1,31 @@
+{
+  "camera": {
+    "default_index": 0,
+    "resolution": "640x480",
+    "exposure": 500
+  },
+  "recognition": {
+    "threshold": 0.75,
+    "topK": 3
+  },
+  "system": {
+    "auto_start": true,
+    "log_level": "info"
+  },
+  "roi": {
+    "type": "rect",
+    "params": {
+      "x": 100,
+      "y": 100,
+      "w": 400,
+      "h": 400
+    }
+  },
+  "database": {
+    "host": "localhost",
+    "port": 3306,
+    "user": "root",
+    "password": "123456",
+    "db": "zhongyaocai_db"
+  }
+}

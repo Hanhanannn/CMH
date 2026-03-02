@@ -1,0 +1,35 @@
+{
+  "server": {
+    "port": 5568,
+    "host": "0.0.0.0",
+    "debug": false
+  },
+  "storage": {
+    "base_path": "D:\\SFAICenter",
+    "backup_enabled": true,
+    "backup_interval": 86400,
+    "max_backups": 7
+  },
+  "tenants": {
+    "YGY001": {
+      "secret_key": "YGY001_2024",
+      "max_devices": 50,
+      "enabled": true
+    },
+    "YGY002": {
+      "secret_key": "YGY002_2024",
+      "max_devices": 50,
+      "enabled": true
+    }
+  },
+  "security": {
+    "enable_encryption": true,
+    "allow_cors": true,
+    "api_key_required": false
+  },
+  "advanced": {
+    "log_level": "INFO",
+    "max_request_size": 1048576,
+    "request_timeout": 60
+  }
+}
